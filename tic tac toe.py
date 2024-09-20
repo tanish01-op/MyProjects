@@ -8,7 +8,7 @@ def display_board(board):
     print(board[4] + '|' + board[5] + '|' + board[6])
     print('-|-|-')
     print(board[7] + '|' + board[8] + '|' + board[9])
-
+#
 def player_input():
     marker =-1
     while marker!="X" and marker!="O":
